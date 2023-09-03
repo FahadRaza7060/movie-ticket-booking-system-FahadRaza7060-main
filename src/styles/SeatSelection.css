@@ -1,0 +1,44 @@
+.seat-container{
+    display: flex;
+    justify-content: center;
+}
+
+.seat-table-container {
+    display: flex;
+    justify-content: center; 
+}
+.form-container {
+    background-color: #71a8df;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+  
+.form__inputcontrol label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+.form__inputcontrol input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+  

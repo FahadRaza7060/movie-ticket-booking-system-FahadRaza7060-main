@@ -1,0 +1,26 @@
+.movie-container {
+    display: flex;
+    justify-content: center;
+}
+.card-container {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.card-sub-container {
+    margin: 5px;
+    width: 25%;
+}
+
+.btn-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-sub-container {
+    width: 48%;
+    margin: 5px;
+}
